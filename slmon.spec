@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://slmon.sourceforge.net/download/%{name}-%{version}.tar.gz
+# Source0-md5:	518d8e3f285ab17ac77c2bd1003c9cb2
 URL:		http://slmon.sourceforge.net
 BuildRequires:	slang-devel >= 1.2.2
 BuildRequires:	popt-devel >= 1.1.3
