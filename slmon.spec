@@ -35,7 +35,7 @@ automake -a -c
 %configure \
 	--enable-strip \
 	--with-libgtop=no
-	
+
 %{__make}
 
 %install
