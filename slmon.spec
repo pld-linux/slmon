@@ -1,15 +1,15 @@
 Summary:	A simple S-Lang based system performance monitor
 Summary(pl):	Prosty monitor obci±¿enia systemu oparty na bibliotece S-Lang
 Name:		slmon
-Version:	0.4.1
+Version:	0.5.12
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/slmon/%{name}-%{version}.tar.gz
-# Source0-md5:	518d8e3f285ab17ac77c2bd1003c9cb2
+# Source0-md5:	1b36e3d49038008cfec11b5820b77ac6
 URL:		http://slmon.sourceforge.net/
 BuildRequires:	autoconf
-BuildRequires:	automake
+BuildRequires:	libgtop-devel
 BuildRequires:	popt-devel >= 1.1.3
 BuildRequires:	slang-devel >= 1.2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -28,11 +28,10 @@ interfejsu u¿ytkownika. Obecnie slmon pokazuje: obci±¿enie procesora
 oraz liczbê zalogowanych u¿ytkowników.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
 %{__autoconf}
-%{__automake}
 %configure \
 	--enable-strip \
 	--with-libgtop=no
@@ -50,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README ChangeLog AUTHORS doc/slmonrc doc/slmon.html
+%doc README ChangeLog AUTHORS TODO slmonrc slmon.html
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
