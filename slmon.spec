@@ -5,8 +5,6 @@ Version:	0.4.1
 Release:	1
 License:	GPL
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	http://slmon.sourceforge.net/download/%{name}-%{version}.tar.gz
 URL:		http://slmon.sourceforge.net
 BuildRequires:	slang-devel >= 1.2.2
