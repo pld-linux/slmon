@@ -31,7 +31,7 @@ oraz liczbê zalogowanych uzytkowników.
 
 %build
 autoconf
-automake -a -c
+automake -a -c -f
 %configure \
 	--enable-strip \
 	--with-libgtop=no
