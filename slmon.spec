@@ -1,12 +1,12 @@
 Summary:	A simple S-Lang based system performance monitor
 Summary(pl):	Prosty monitor obci±¿enia systemu oparty na bibliotece S-Lang
 Name:		slmon
-Version:	0.5.12
+Version:	0.5.13
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/slmon/%{name}-%{version}.tar.gz
-# Source0-md5:	1b36e3d49038008cfec11b5820b77ac6
+# Source0-md5:	9907c53e26b8dfb5d33af6da32ed89e3
 URL:		http://slmon.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	libgtop-devel
