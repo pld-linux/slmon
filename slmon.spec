@@ -1,5 +1,5 @@
 Summary:	A simple S-Lang based system performance monitor
-Summary(pl):	Prosty monitor obci±¿enia systemu oparty na bibliotece S-Lang
+Summary(pl.UTF-8):   Prosty monitor obciÄ…Å¼enia systemu oparty na bibliotece S-Lang
 Name:		slmon
 Version:	0.5.13
 Release:	4
@@ -20,12 +20,12 @@ results using nice and (hopefully) readable text-based UI. Currently
 monitored are: CPU load (SMP is supported), memory (including swap),
 uptime, date and time, number of logged in users.
 
-%description -l pl
-SLmon jest aplikacj± monitoruj±c± obci±¿enie systemu. Do wy¶wietlania
-wyników u¿ywa ³adnego i (tak± mamy nadziejê) czytelnego tekstowego
-interfejsu u¿ytkownika. Obecnie slmon pokazuje: obci±¿enie procesora
-(lub procesorów), zajêto¶æ pamiêci (tak¿e swapa), uptime, datê i czas
-oraz liczbê zalogowanych u¿ytkowników.
+%description -l pl.UTF-8
+SLmon jest aplikacjÄ… monitorujÄ…cÄ… obciÄ…Å¼enie systemu. Do wyÅ›wietlania
+wynikÃ³w uÅ¼ywa Å‚adnego i (takÄ… mamy nadziejÄ™) czytelnego tekstowego
+interfejsu uÅ¼ytkownika. Obecnie slmon pokazuje: obciÄ…Å¼enie procesora
+(lub procesorÃ³w), zajÄ™toÅ›Ä‡ pamiÄ™ci (takÅ¼e swapa), uptime, datÄ™ i czas
+oraz liczbÄ™ zalogowanych uÅ¼ytkownikÃ³w.
 
 %prep
 %setup -q
