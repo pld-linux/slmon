@@ -1,5 +1,5 @@
 Summary:	A simple S-Lang based system performance monitor
-Summary(pl.UTF-8):   Prosty monitor obciążenia systemu oparty na bibliotece S-Lang
+Summary(pl.UTF-8):	Prosty monitor obciążenia systemu oparty na bibliotece S-Lang
 Name:		slmon
 Version:	0.5.13
 Release:	4
